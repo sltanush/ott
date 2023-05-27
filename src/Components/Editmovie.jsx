@@ -78,7 +78,7 @@ const Editmovie = () => {
     return ( 
         <div className="add-movie">
             <h1>Edit Movie</h1>
-
+{/* hello */}
             <form onSubmit={ handleEditMovie }>
                 <input type="text" ref={moviename} placeholder="Movie name" />
                 <input type="text" ref={hero} placeholder="hero"/>
